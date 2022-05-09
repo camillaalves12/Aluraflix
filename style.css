@@ -1,0 +1,84 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-04-aluraflix-e-filmes.png");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+    font-size: 5rem ;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+    font-size: 3rem;
+  }
+
+  #listaFilmes img {
+    position: relative;
+    margin: 10px;
+    max-height: 250px;
+    display: inline-block;
+  }
+  
+  .form-wrapper {
+    margin: 10px 0 15px;
+  }
+  .input{
+    width: 22rem;
+    height: 2.3rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    display: block;
+    margin: 10px auto;
+    padding: 0.7rem 0.5rem;
+    margin-top: 1rem;
+    outline: none;
+    font-size: 1.5rem;
+    background: rgba(0,0,0,0.6 );
+    color: #ffffff;
+  }
+  .input::placeholder{
+      font-size: 1.2rem;
+  }
+  .btn{
+      width: 15rem;
+  }
+  .form-wrapper button {
+    border: 0;
+    color: #ffffff;
+    background: #da1e26;
+    font-weight: bold;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .form-wrapper button:hover {
+    opacity: 0.8;
+  }
+  
+  p {
+    position: relative;
+    box-sizing: content-box;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
